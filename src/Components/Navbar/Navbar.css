@@ -1,0 +1,112 @@
+.navbar {
+  padding: 1.25rem 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: var(--background-color);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+.navbar img {
+  width: 6rem;
+  margin-right: 1rem;
+}
+.navbar .nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 3vw;
+  font-size: 1rem;
+}
+.navbar .nav-menu li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  cursor: pointer;
+}
+.navbar .nav-menu li img {
+  display: flex;
+  margin: auto;
+  padding-top: 0.5rem;
+  width: 40px;
+}
+.navbar .nav-connect {
+  padding: 0.9375rem 1rem;
+  border-radius: 3.125rem;
+  background: linear-gradient(267deg, var(--orange) 0.36%, var(--pink) 102.64%);
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 1rem;
+}
+.navbar .nav-connect:hover {
+  transform: scale(1.05);
+}
+.navbar .anchor-link {
+  text-decoration: none;
+  color: white;
+}
+.navbar .anchor-link p {
+  text-align: center;
+}
+
+.nav-mob-open {
+  display: none;
+  cursor: pointer;
+  width: 30px;
+}
+
+.nav-mob-close {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1.25rem 6%;
+  }
+  .nav-connect {
+    display: none;
+  }
+  .nav-mob-open {
+    display: block;
+    position: absolute;
+    right: 0%;
+    width: 25px;
+    height: 25px;
+  }
+  .nav-mob-close {
+    display: block;
+    position: absolute;
+    top: 1.875rem;
+    right: 7%;
+    width: 25px;
+    height: 25px;
+  }
+  .navbar ul {
+    position: fixed;
+    flex-direction: column;
+    align-items: start;
+    top: 0;
+    gap: 1.875rem;
+    background-color: #1F0016;
+    width: 25vh;
+    height: 100%;
+    z-index: 2;
+    transition: right 0.5s;
+    right: -300px;
+    padding-top: 6.25rem;
+    padding-right: 4rem;
+  }
+  .nav-menu li {
+    font-size: 1.375rem;
+    padding-left: 3.125rem;
+    flex-direction: row;
+    gap: 1.25rem;
+  }
+}
+
+/*# sourceMappingURL=Navbar.css.map */

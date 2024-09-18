@@ -1,0 +1,197 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.75rem;
+  margin: 4.375rem 10%;
+}
+.about .about-title {
+  position: relative;
+}
+.about .about-title h1 {
+  padding: 0 1.875rem;
+  font-size: 3.75rem;
+  font-weight: 600;
+}
+.about .about-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.about .about-sections {
+  display: flex;
+  gap: 3.75rem;
+}
+.about .about-sections .about-left img {
+  width: 300px;
+  border-radius: 10px;
+}
+.about .about-sections .about-right {
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+}
+.about .about-sections .about-right .fields {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  overflow: auto;
+}
+.about .about-sections .about-right .field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-bottom: 1px solid white;
+  border-radius: 50%;
+}
+.about .about-sections .about-para {
+  display: flex;
+  flex-direction: column;
+  gap: 1.9375rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.about .about-sections .about-para p:nth-child(2) {
+  font-weight: 300;
+  font-size: 1rem;
+  color: var(--text-color-shade-light);
+}
+.about .about-sections .about-para p span {
+  text-decoration: 2px underline var(--pink);
+}
+.about .about-sections .about-skills {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: unset;
+  flex-flow: wrap;
+  gap: 0.9375rem;
+}
+.about .about-sections .about-skill {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  transition: 0.3s;
+  width: 40vh;
+  padding-right: 10vh;
+}
+.about .about-sections .about-skill p {
+  min-width: 8rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.about .about-sections .about-skill hr {
+  outline: none;
+  border: none;
+  width: 25%;
+  height: 8px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, var(--orange) -5.09%, var(--pink) 106.28%);
+}
+.about .about-achievements {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 1rem;
+  margin-bottom: 3.125rem;
+}
+.about .about-achievement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  transition: 0.5s;
+}
+.about .about-achievement hr {
+  display: block;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  unicode-bidi: isolate;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+.about .about-achievement h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(267deg, var(--orange) 50.41%, var(--pink) 90.28%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about .about-achievement p {
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-align: center;
+}
+.about .about-skill:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.about .about-achievement:hover {
+  transform: scale(1.12);
+  transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+  .about {
+    gap: 3.125rem;
+    margin: 3.125rem 6%;
+    align-items: start;
+  }
+  .about-sections {
+    flex-direction: column;
+  }
+  .about-left {
+    display: none;
+  }
+  .about-right {
+    margin: 0 0.4rem;
+  }
+  .about-para {
+    line-height: 1.5625rem;
+    width: 80vw;
+  }
+  .fields {
+    flex-wrap: wrap;
+    margin: 0 2rem;
+    justify-content: center;
+  }
+  .fields .field {
+    width: 90px;
+    height: 90px;
+  }
+  .about-skills {
+    width: 80vw;
+  }
+  .about-skill p {
+    font-size: 1rem;
+    min-width: 5.625rem;
+  }
+  .about-skill hr {
+    height: 6px;
+  }
+  .about-achievements {
+    justify-content: space-between;
+  }
+  .about-achievement {
+    gap: 0.625rem;
+  }
+  .about-achievement h1 {
+    font-size: 1.75rem;
+  }
+  .about-achievement p {
+    text-align: center;
+    font-size: 0.75rem;
+  }
+}
+
+/*# sourceMappingURL=About.css.map */

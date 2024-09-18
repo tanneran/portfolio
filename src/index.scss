@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  //box-sizing: border-box;
+  //font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --background-color: #161513;
+  --text-color: #f9f9f9;
+  --text-color-shade-light: #d8d8d8;
+  --text-color-shade: #b8b8b8;
+  --orange: #da7c25;
+  --pink: #b923e1;
+  --purple: #B415FF;
+  --pink-highlight: #ff00ff;
+  --red-dark: #3f0028;
+  --orange-dark: #582300;
+}
+
+body {
+  height: 100vh;
+  background: var(--background-color);
+  color: var(--text-color);
+  font-family: "Outfit", sans-serif;
+  //width: 100vw;
+  //margin: auto;
+}

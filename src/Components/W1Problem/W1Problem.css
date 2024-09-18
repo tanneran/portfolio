@@ -1,0 +1,10 @@
+.w1-problem {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  margin: 5rem 10%;
+  margin-top: 7rem;
+  align-items: center;
+}
+
+/*# sourceMappingURL=W1Problem.css.map */
