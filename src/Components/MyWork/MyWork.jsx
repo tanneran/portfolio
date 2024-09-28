@@ -23,7 +23,7 @@ const MyWork = () => {
                     (work, index) => {
                         if (index===0) {
                             return <div className='conimg'>
-                                <img key={index} src={work.w_img} alt="" onClick={work.w_url}/>
+                                <img key={index} src={work.w_img} alt="" onClick={window.open(work.w_url,'_blank')}/>
                                 <div className='divP'><p>{work.w_desc}</p>
                             </div>
 
