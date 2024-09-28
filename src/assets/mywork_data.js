@@ -18,7 +18,7 @@ const mywork_data = [
         w_no:1,
         w_name:"Baltimore Code&Coffee",
         w_img:project1_img,
-        w_desc: "Managed a project from scratch to launch for a coding organization"
+        w_desc: "Managed a project from scratch to launch for a coding organization",
         w_url: "https://www.figma.com/design/9gmylSmBa1DAzJxan97Ryv/Baltimore-Code-%26-Coffee-Website?node-id=0-1&t=9f9sFC9Z4sgyNQvy-1"
     },
     {
