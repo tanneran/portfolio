@@ -23,7 +23,7 @@ const MyWork = () => {
                     (work, index) => {
                         if (index===0) {
                             return <div className='conimg'>
-                                <img key={index} src={work.w_img} alt="" onClick={()=>window.open(work.w_url,'_blank')}/>
+                                <img key={index} src={work.w_img} alt="" />
                                 <div className='divP'><p>{work.w_desc}</p>
                             </div>
 
@@ -36,7 +36,7 @@ const MyWork = () => {
                             //     <p>{work.w_desc}</p>
                             // </div>
                             return <div className='conimg'>
-                                <img key={index + 1} src={work.w_img} alt="" />
+                                <img key={index + 1} src={work.w_img} alt="" onClick={()=>window.open(work.w_url,'_blank')} />
                                 <div className='divP'><p>{work.w_desc}</p>
                                 </div>
                             </div>
