@@ -25,28 +25,29 @@ const mywork_data = [
         w_no:1,
         w_name:"DrayEasy",
         w_img:project2_img,
-        w_desc: "Supercharged a B2B web app for one of US's best drayage pricing platforms "
-
+        w_desc: "Supercharged a B2B web app for one of US's best drayage pricing platforms ",
+        w_url: "https://www.figma.com/proto/SkKYgKqUs4pKuQbqFD8p51/DrayEasy---Rate-Review?node-id=3408-87072&node-type=frame&t=o2w2j7BIqt0BNbRv-0&scaling=min-zoom&content-scaling=fixed&page-id=3283%3A82123&starting-point-node-id=3408%3A87072"
     },
     {
         w_no:3,
         w_name:"Jonathan Ceci Landscape Architects",
         w_img:project3_img,
-        w_desc: "Led marketing and ensured client satisfaction in a niche design firm"
-
+        w_desc: "Led marketing and ensured client satisfaction in a niche design firm",
+        w_url: "https://www.jonathanceci.com/"
     },
     {
         w_no:4,
         w_name:"Pie Properties",
         w_img:project4_img,
-        w_desc: "Revamped the design of a crowdfunding platform for real estate investments"
-
+        w_desc: "Revamped the design of a crowdfunding platform for real estate investments",
+        w_url: "https://www.figma.com/proto/LF7cwVMb8LnzqzBsvsvRnC/Pie-Properties---Alpha-X-Real-Estate?node-id=3192-6050&node-type=frame&t=0wIEpm7z7DDXDKs5-1&scaling=contain&content-scaling=fixed&page-id=2494%3A49756&starting-point-node-id=3192%3A6050"
     },
     {
         w_no:5,
         w_name:"Swivel",
         w_img:project5_img,
-        w_desc: "Pioneered the vision of a fashion mobile app that employs AI"
+        w_desc: "Pioneered the vision of a fashion mobile app that employs AI",
+        w_url: "https://www.figma.com/proto/5xGoSng8hSRgq9z6b9Y0Dw/AIGC-Swivel?node-id=4-2&node-type=frame&t=Al3dxKODmIzQcKAU-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1"
 
     },
     // {
