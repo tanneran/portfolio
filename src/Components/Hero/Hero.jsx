@@ -16,12 +16,12 @@ const Hero = () => {
                     <AnchorLink className='anchor-link' offset={90} href='#contact'>Make magic with Me
                     </AnchorLink>
                 </div>
-                <div className="hero-resume" onClick={()=> {
-                    const url='https://drive.google.com/file/d/11Lj5lmbxKP6U2ZNg-jHlV_xn50NXFo1g/view?usp=sharing'
-                    window.open(url,'_blank')
-                }}>
-                    My resume
-                </div>
+                {/*<div className="hero-resume" onClick={()=> {*/}
+                {/*    const url='https://drive.google.com/file/d/11Lj5lmbxKP6U2ZNg-jHlV_xn50NXFo1g/view?usp=sharing'*/}
+                {/*    window.open(url,'_blank')*/}
+                {/*}}>*/}
+                {/*    My resume*/}
+                {/*</div>*/}
             </div>
         </div>
     );
