@@ -26,7 +26,7 @@ const mywork_data = [
         w_name:"DrayEasy",
         w_img:project2_img,
         w_desc: "Supercharged a B2B web app for one of US's best drayage pricing platforms ",
-        w_url: "https://www.figma.com/proto/SkKYgKqUs4pKuQbqFD8p51/DrayEasy---Rate-Review?node-id=3408-87072&node-type=frame&t=o2w2j7BIqt0BNbRv-0&scaling=min-zoom&content-scaling=fixed&page-id=3283%3A82123&starting-point-node-id=3408%3A87072"
+        w_url: "https://www.figma.com/proto/SkKYgKqUs4pKuQbqFD8p51/DrayEasy---Rate-Review?node-id=3408-87072&node-type=frame&t=X1Te7cIg2GIorVz6-0&scaling=scale-down&content-scaling=fixed&page-id=3283%3A82123&starting-point-node-id=3408%3A87072"
     },
     {
         w_no:3,

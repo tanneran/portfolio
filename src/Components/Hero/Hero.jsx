@@ -17,7 +17,7 @@ const Hero = () => {
                     </AnchorLink>
                 </div>
                 <div className="hero-resume" onClick={()=> {
-                    const url='https://drive.google.com/file/d/16Qt3LL0QLNfg0PLadJbHfuXM6nrGllk_/view?usp=sharing'
+                    const url='https://drive.google.com/file/d/11Lj5lmbxKP6U2ZNg-jHlV_xn50NXFo1g/view?usp=sharing'
                     window.open(url,'_blank')
                 }}>
                     My resume
